@@ -13,6 +13,7 @@ Create a very simple two way binding feature
 
 
 
+
 **PHP**
 
 Use this link to get XML data and convert those data in more readable JSON format
@@ -23,3 +24,10 @@ We have an array of IDs and prices. Please create two functions as per the below
 
 Create/Architect a PHP class which will receive certain defined inputs and connect to database(does not need to connect to db just create a function for connecting DB), class should include helper functions which can be both internal static and external functions and at last class need to provide some output.
 Create an action controller which will receive POST request from frontend, need to validate the inputs as defined (like if we should get id and value, check if id is number and value is string), catch the errors if any and return the some outputs in JSON format
+
+
+Files:
+Price.php
+Usercontroller.php
+xmltojson.php
+database.php
