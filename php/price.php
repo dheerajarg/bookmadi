@@ -37,7 +37,7 @@
         return $row;
     };
     // let user input is 400 -- change between 100-600
-    $calculatedPrice = CalculatePrice($data, 400);
+    $calculatedPrice = CalculatePrice($data, 200);
     echo 'Array greater than input value: <pre>';
      print_r($calculatedPrice);
     echo '<br>';
